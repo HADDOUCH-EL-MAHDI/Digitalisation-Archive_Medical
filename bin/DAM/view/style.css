@@ -1,0 +1,122 @@
+
+
+.btn,.btnCancel,.btnHide
+{
+    -fx-background-color: transparent;
+    -fx-text-fill: #a8dbdd;
+}
+
+
+.btn:hover
+{
+    -fx-background-color: #154646;
+    -fx-cursor: hand;
+}
+
+.HeadBtns{
+	-fx-text-fill: #154646;
+	-fx-background-color:#a8dbdd;
+}
+.HeadBtns:hover{
+	-fx-background-color: #154646;
+	-fx-text-fill: #a8dbdd;
+    -fx-cursor: hand;
+}
+
+.btnCancel:hover{
+	-fx-background-color: red;
+    -fx-cursor: hand;
+}
+
+.btnHide:hover{
+	-fx-background-color: BLUE;
+    -fx-cursor: hand;
+}
+
+#active{
+	-fx-background-color: #154646;
+    -fx-cursor: hand;
+}
+
+.menuBtn:hover{
+	-fx-opacity:0.7;
+}
+
+#logoApp:hover{
+	-fx-opacity:1;
+	-fx-cursor:hand;
+}
+
+#logout:hover,#btnConnecter:hover{
+	-fx-opacity:1;
+}
+
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: transparent;
+
+}
+.table-view .column-header {
+    -fx-background-color: #a8dbdd;
+    -fx-border-color:white;
+    -fx-border-width:1px 1px 0px 1px;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell:odd{
+    -fx-background-color: #93f9b911;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even{
+    -fx-background-color: #fffffff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:hover {
+    -fx-background-color: #154646;
+    -fx-text-background-color: white;
+}
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #1dbbdd44, #93f9b944);
+}
+
+
+#grid{
+    -fx-background-color: white;
+    -fx-spacing: 10;
+    -fx-padding:10;
+    -fx-font-family: verdana;
+}
+
+

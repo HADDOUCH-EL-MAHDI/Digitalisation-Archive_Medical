@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="700.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="600.0" stylesheets="@Ajouter.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DAM.view.AjouterController">
+   <children>
+      <BorderPane layoutX="10.0" layoutY="10.0" prefHeight="447.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane maxWidth="700.0" minWidth="-Infinity" prefHeight="423.0" prefWidth="523.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="nomETprenom" layoutX="130.0" layoutY="118.0" prefHeight="35.0" prefWidth="315.0" promptText="Nom &amp; Prénom..." style="-fx-border-color: #bebbbb;" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="code" layoutX="320.0" layoutY="71.0" maxWidth="160.0" minWidth="140.0" prefHeight="35.0" prefWidth="150.0" promptText="code..." style="-fx-border-color: #bebbbb;" AnchorPane.rightAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tel" layoutX="130.0" layoutY="165.0" maxWidth="160.0" minWidth="140.0" prefHeight="35.0" prefWidth="150.0" promptText="Tél....." style="-fx-border-color: #bebbbb;" AnchorPane.leftAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="130.0" layoutY="406.0" maxWidth="110.0" mnemonicParsing="false" onAction="#Ajouter" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #52c4c4; -fx-border-color: #bebbbb; -fx-text-fill: black;" text="Ajouter" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="130.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="130.0" layoutY="12.0" prefHeight="32.0" prefWidth="167.0" text="Informations" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="130.0">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="diagnosticE" layoutX="130.0" layoutY="257.0" prefHeight="35.0" prefWidth="318.0" promptText="Diagnostic d'entrée......" style="-fx-border-color: #bebbbb;" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="diagnosticS" layoutX="130.0" layoutY="302.0" prefHeight="35.0" prefWidth="320.0" promptText="Diagnostic de sortie......." style="-fx-border-color: #bebbbb;" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="ip" layoutX="130.0" layoutY="71.0" maxWidth="160.0" minWidth="140.0" prefHeight="35.0" prefWidth="150.0" promptText="ip......" style="-fx-border-color: #bebbbb;" AnchorPane.leftAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="adresse" layoutX="320.0" layoutY="165.0" maxWidth="160.0" minWidth="140.0" prefHeight="35.0" prefWidth="150.0" promptText="Adresse...." style="-fx-border-color: #bebbbb;" AnchorPane.rightAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="dr" layoutX="320.0" layoutY="349.0" maxWidth="170.0" minWidth="140.0" prefHeight="35.0" prefWidth="150.0" promptText="Dr......" style="-fx-border-color: #bebbbb;" AnchorPane.rightAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="pr" layoutX="130.0" layoutY="349.0" maxWidth="170.0" minWidth="140.0" prefHeight="35.0" prefWidth="150.0" promptText="Pr......" style="-fx-border-color: #bebbbb;" AnchorPane.leftAnchor="130.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <DatePicker fx:id="dateE" layoutX="131.0" layoutY="211.0" prefHeight="35.0" prefWidth="150.0" promptText="Date d'entrée..." />
+                  <DatePicker fx:id="dateS" layoutX="322.0" layoutY="211.0" prefHeight="35.0" prefWidth="149.0" promptText="Date de sortie..." />
+                  <Label fx:id="LabelSignal" alignment="CENTER" contentDisplay="CENTER" layoutX="133.0" layoutY="46.0" prefHeight="17.0" prefWidth="338.0" textFill="RED">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

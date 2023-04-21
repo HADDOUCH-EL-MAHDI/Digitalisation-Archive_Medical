@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxWidth="-Infinity" minWidth="-Infinity" prefHeight="328.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="74.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="520.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane prefHeight="374.0" prefWidth="296.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="269.0" fitWidth="224.0" layoutX="30.881866455078125" layoutY="36.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0">
+                     <image>
+                        <Image url="@../../../ressources/images/logo_archive.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="289.0" prefHeight="59.0" prefWidth="222.0" text="Application de Digitalisation " textAlignment="CENTER" AnchorPane.rightAnchor="20.0">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="327.0" prefHeight="39.0" prefWidth="226.0" text="d'un archive Médical" textAlignment="CENTER" AnchorPane.rightAnchor="20.0">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="400.0" prefWidth="296.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="16.0" layoutY="42.0" prefHeight="37.0" prefWidth="169.0" text="Informations:" AnchorPane.leftAnchor="15.0">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="76.0" prefHeight="37.0" prefWidth="169.0" text="Date : 2022" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="153.0" prefHeight="37.0" prefWidth="169.0" text="AGHBAL Othmane" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="181.0" prefHeight="37.0" prefWidth="169.0" text="Haddouch El Mahdi" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="211.0" prefHeight="37.0" prefWidth="169.0" text="Daize Samia" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="240.0" prefHeight="37.0" prefWidth="169.0" text="ALouay Nouredinne" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="269.0" prefHeight="37.0" prefWidth="169.0" text="El Habchi Said" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="300.0" prefHeight="37.0" prefWidth="169.0" text="El Houta Soukaina" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="335.0" prefHeight="37.0" prefWidth="169.0" text="El Hidaoui Chamaie" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="16.0" layoutY="116.0" prefHeight="37.0" prefWidth="169.0" text="Créateurs:" AnchorPane.leftAnchor="15.0">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </right>
+         <center>
+            <Separator maxWidth="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="10.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ModifierStage" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="614.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="103.0" prefWidth="614.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="28.0" layoutY="33.0" prefHeight="38.0" prefWidth="261.0" text="Champ :  Modifier " textFill="#868080">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutY="98.0" prefHeight="7.0" prefWidth="614.0" />
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" layoutX="67.0" layoutY="81.0" prefHeight="80.0" prefWidth="482.0" text="Désolé,vous n'avez pas l'autorisation d'accéder a ce champs">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="163.0" layoutY="141.0" prefHeight="52.0" prefWidth="291.0" text="Seule l'Admin peut acceder" textFill="RED">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

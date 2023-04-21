@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane fx:id="ListeStage" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DAM.view.ListeController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TableView fx:id="TableDonnees" prefHeight="272.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="idColumn" prefWidth="139.0" text="Ip" />
+                  <TableColumn fx:id="codeColumn" prefWidth="154.0" text="Code" />
+                  <TableColumn fx:id="nomEtprenomColumn" prefWidth="306.0" text="Nom ET Prenom" />
+              </columns>
+            </TableView>
+         </center>
+         <top>
+            <AnchorPane prefHeight="87.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="Recherche" layoutX="14.0" layoutY="19.0" prefHeight="25.0" prefWidth="245.0" promptText="Rechercher......" style="-fx-background-color: #154646; -fx-text-fill: #a8dbdd;" />
+                  <SplitMenuButton fx:id="MenuAnnees" layoutX="293.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Année" />
+                  <Button layoutX="504.0" layoutY="32.0" mnemonicParsing="false" onAction="#AfficheDetails" prefHeight="25.0" prefWidth="72.0" styleClass="HeadBtns" text="Details" />
+                  <Button layoutX="169.0" layoutY="52.0" mnemonicParsing="false" onAction="#Rechercher" prefHeight="25.0" prefWidth="90.0" styleClass="HeadBtns" text="Rechercher" />
+                  <Button layoutX="414.0" layoutY="32.0" mnemonicParsing="false" onAction="#Rafrechir" prefHeight="25.0" prefWidth="72.0" styleClass="HeadBtns" text="Rafrechir" />
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
